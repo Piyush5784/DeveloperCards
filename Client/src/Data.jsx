@@ -12,7 +12,7 @@ export const useInputs = () => {
 }
 
 
-export const BackendUrl = "http://localhost:3001/";
+export const BackendUrl = "https://developercards.onrender.com/";
 
 export async function getData() {
     const response = await fetch(`${BackendUrl}` + "getPersons")
